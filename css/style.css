@@ -1,0 +1,202 @@
+/* All common css start */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
+}
+
+/* All common css end */
+
+/* Header part start */
+
+#head {
+  height: 1200px;
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+  padding-bottom: 100px;
+}
+
+.conteiner {
+  padding: 100px;
+  position: relative;
+}
+
+button {
+  margin-left: 180px;
+  color: #fff;
+  padding: 10px 40px;
+  border-radius: 8px;
+  background-image: linear-gradient(
+    to right top,
+    #3700ff,
+    #7300f2,
+    #9400e6,
+    #ab00da,
+    #bd00cf
+  );
+  border: none;
+  font-size: 24px;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.hurray {
+  width: 100%;
+  background: url(../images/warm-gradient-line-drawing-cartoon-happy-man-vector.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.head {
+  text-align: center;
+  font-size: 35px;
+  padding-bottom: 100px;
+}
+
+.imghobe {
+  height: 400px;
+  width: 450px;
+  position: absolute;
+  top: 330px;
+  right: 500px;
+}
+
+/* Header part end */
+/* Banner part start */
+
+#banner {
+  padding: 100px;
+  background-image: linear-gradient(
+    to bottom,
+    #370519,
+    #702f2a,
+    #9f6538,
+    #bea34f,
+    #c7e781
+  );
+}
+
+.box {
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+}
+
+h2 {
+  color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+  letter-spacing: 0.125rem;
+  text-transform: uppercase;
+}
+
+li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+  color: blue;
+}
+
+li span {
+  display: block;
+  font-size: 4.5rem;
+  color: red;
+}
+
+.emoji {
+  display: none;
+  padding: 1rem;
+}
+
+.emoji span {
+  font-size: 4rem;
+  padding: 0 0.5rem;
+}
+
+@media all and (max-width: 768px) {
+  h1 {
+    font-size: calc(1.5rem * var(--smaller));
+  }
+
+  li {
+    font-size: calc(1.125rem * var(--smaller));
+  }
+
+  li span {
+    font-size: calc(3.375rem * var(--smaller));
+  }
+}
+
+/* ===================== */
+
+#bany {
+  padding: 100px;
+  background-image: linear-gradient(
+    to bottom,
+    #4ec9ff,
+    #00bbda,
+    #00a9ab,
+    #009575,
+    #007f3d
+  );
+}
+
+.boxy {
+  height: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+.count {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  float: left;
+  margin: 30px;
+}
+
+.hoise {
+  padding-top: 40px;
+  padding-left: 350px;
+}
+
+/* Banner part end */
